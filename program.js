@@ -45,8 +45,9 @@ document.getElementById('sajy').innerHTML = t;
 };
 var f=0;
 var x=prompt("رمز عبور را وارد کنید.");
-if (x=="4297") {all()} else {alert("sasasasasas");
-document.getElementById('j','h','sajy').style.display=("none");
+if (x=="4297"){document.getElementById('body').style.display="inherit";
+  all()}
+else {alert("رمز وارد شده صحیح نمی‌باشد = مجازات");
 while (f<10) {
 document.write(f);
 f++;
