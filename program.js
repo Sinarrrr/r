@@ -52,3 +52,4 @@ while (f<10) {
 document.write(f);
 f++;
 }}
+s
