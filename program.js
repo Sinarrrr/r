@@ -1,6 +1,7 @@
+function all() {
 var d=new Date();
-document.getElementById('h').innerHTML= d.getHours() + ":" + d.getMinutes()
 var day=d.getDay();
+document.getElementById('h').innerHTML= d.getHours() + ":" + d.getMinutes()
 switch (day) {
     case 0:t="یکشنبه";
      document.getElementById('z1').innerHTML=("نگارش");
@@ -41,3 +42,12 @@ switch (day) {
 
 }
 document.getElementById('sajy').innerHTML = t;
+};
+var f=0;
+var x=prompt("رمز عبور را وارد کنید.");
+if (x=="4297") {all()} else {alert("sasasasasas");
+document.getElementById('j','h','sajy').style.display=("none");
+while (f<10) {
+document.write(f);
+f++;
+}}
