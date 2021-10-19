@@ -40,7 +40,7 @@ switch (day) {
      document.getElementById('z4').innerHTML=("شیمی");
     break;
 
-}
-document.getElementById('sajy').innerHTML = t;
+};
+document.getElementById('sajy').innerHTML = t
 };
 all()
