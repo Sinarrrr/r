@@ -34,7 +34,7 @@ switch (day) {
      document.getElementById('j').style.display=("none");
     break;
     case 6:t="شنبه";
-     document.getElementById('z1').innerHTML=("زبان خارجی");
+     document.getElementById('z1').innerHTML=("زبان");
      document.getElementById('z2').innerHTML=("فیزیک");
      document.getElementById('z3').innerHTML=("عربی");
      document.getElementById('z4').innerHTML=("شیمی");
@@ -43,12 +43,4 @@ switch (day) {
 }
 document.getElementById('sajy').innerHTML = t;
 };
-var f=0;
-var x=prompt("رمز عبور را وارد کنید.");
-if (x=="4297"){document.getElementById('body').style.display="inherit";
-  all()}
-else {alert("رمز وارد شده صحیح نمی‌باشد = مجازات");
-while (f<1000000000000000000000000000000000000000000000000000000000) {
-document.write(f);
-f++;
-}}
+all()
