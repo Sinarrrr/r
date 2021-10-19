@@ -48,8 +48,7 @@ var x=prompt("رمز عبور را وارد کنید.");
 if (x=="4297"){document.getElementById('body').style.display="inherit";
   all()}
 else {alert("رمز وارد شده صحیح نمی‌باشد = مجازات");
-while (f<10) {
+while (f<1000000000000000000000000000000000000000000000000000000000) {
 document.write(f);
 f++;
 }}
-s
