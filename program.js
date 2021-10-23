@@ -1,4 +1,4 @@
-function all() {
+﻿function all() {
 var d=new Date();
 var day=d.getDay();
 document.getElementById('h').innerHTML= d.getHours() + ":" + d.getMinutes()
